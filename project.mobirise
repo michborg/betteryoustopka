@@ -13,17 +13,17 @@
         "warningColor": "#879A9F",
         "dangerColor": "#B1A374",
         "mainFont": "Rubik",
-        "display1Font": "Rubik",
+        "display1Font": "Poppins",
         "display1Size": 4.25,
-        "display2Font": "Rubik",
+        "display2Font": "Poppins",
         "display2Size": 3,
-        "display5Font": "Rubik",
+        "display5Font": "Poppins",
         "display5Size": 1.5,
-        "display7Font": "Rubik",
+        "display7Font": "Poppins",
         "display7Size": 1,
-        "display4Font": "Rubik",
+        "display4Font": "Poppins",
         "display4Size": 1,
-        "isRoundedButtons": true,
+        "isRoundedButtons": false,
         "isAnimatedOnScroll": false,
         "isScrollToTopButton": false
       },
@@ -38,8 +38,19 @@
     },
     "path": "@PROJECT_PATH@",
     "versionFirst": "4.8.1",
-    "siteFonts": [],
-    "uniqCompNum": 29,
+    "siteFonts": [
+      {
+        "css": "'Roboto Slab', serif",
+        "name": "Roboto Slab",
+        "url": "https://fonts.googleapis.com/css?family=Roboto+Slab:100,300,400,700"
+      },
+      {
+        "css": "'Poppins', sans-serif",
+        "name": "Poppins",
+        "url": "https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i"
+      }
+    ],
+    "uniqCompNum": 31,
     "versionPublish": "4.8.1"
   },
   "pages": {
@@ -53,6 +64,21 @@
         "html_before": ""
       },
       "components": [
+        {
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor"
+          },
+          "_name": "content8",
+          "_customHTML": "<section class=\"mbr-section content8\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Góra\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"1\">\n        <input type=\"range\" inline title=\"Dół\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"1\">\n        <input type=\"color\" title=\"Kolor tła\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"container\">\n        <div class=\"media-container-row title\">\n            <div class=\"col-12 col-md-8\">\n                <div class=\"mbr-section-btn align-center\" mbr-buttons mbr-theme-style=\"display-4\" data-toolbar=\"-mbrBtnMove\"><a class=\"btn btn-primary\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Text\">NOWOŚCI BETTERYOU</a> \n                    <a class=\"btn btn-primary\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Text\">PROMOCJE BETTERYOU</a></div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_cid": "r90aeZsrA6",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {},
+          "_anchor": "content8-u"
+        },
         {
           "_styles": {
             "padding-top": "(@paddingTop * 15px)",
@@ -72,7 +98,7 @@
             }
           },
           "_name": "footer6",
-          "_customHTML": "<section group=\"Footers\" global once mbr-class=\"{'mbr-reveal': reveal, 'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Góra\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"1\">\n        <input type=\"range\" inline title=\"Dół\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"1\">\n        <input type=\"checkbox\" title=\"Efekt odsłaniania\" name=\"reveal\">\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Obrazek\" value=\"../_images/jumbotron.jpg\">\n            <input type=\"color\" title=\"Kolor ta\" value=\"#ffffff\" selected>\n        </fieldset>\n        <input type=\"checkbox\" title=\"Nakładka\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Kolor nakładki\" name=\"overlayColor\" value=\"#3C3C3C\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Przejrzystość\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.5\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n\n    <div class=\"container\">\n        <div class=\"media-container-row align-center mbr-white\">\n            <div class=\"col-12\">\n                <p class=\"mbr-text mb-0 mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".media-container-row .mbr-text\" data-app-placeholder=\"Type Text\"><p>Marka <b>BETTERYOU</b>&nbsp;została stworzona w celu zaspokojenia potrzeb konsumentów świadomych jakości. Mamy bogate doświadczenie w sklepach ze zdrową żywnością, a naszym celem jest oferowanie produktów zdrowotnych o najwyższej jakości. <b>BETTER YOU</b> jest perłą skandynawskich uczonych zajmujących się suplementami diety oraz dietetyką od ponad 25 lat. </p><p>Naszym punktem wyjścia jest to, że dzisiejsze potrzeby konsumentów prowadzą w kierunku pro-zdrowotnym. Pracujemy od całościowego podejścia odnowy biologicznej. Oceniamy i rozwijamy produkty, które odpowiadają potrzebom dzisiejszych <b>sportowców</b>, <b>kulturystów</b> czy <b>trenujących kobiet </b>które są podstawą naszej działalności.</p><p>[<a href=\"https://betteryou.pl/o-nas/\" style=\"font-size: 1rem; background-color: rgb(255, 255, 255);\"><b>Czytaj więcej</b></a><span style=\"font-size: 1rem;\">]</span></p><hr></p>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_customHTML": "<section group=\"Footers\" global once mbr-class=\"{'mbr-reveal': reveal, 'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Góra\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"1\">\n        <input type=\"range\" inline title=\"Dół\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"checkbox\" title=\"Efekt odsłaniania\" name=\"reveal\">\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Obrazek\" value=\"../_images/jumbotron.jpg\">\n            <input type=\"color\" title=\"Kolor ta\" value=\"#ffffff\" selected>\n        </fieldset>\n        <input type=\"checkbox\" title=\"Nakładka\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Kolor nakładki\" name=\"overlayColor\" value=\"#3C3C3C\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Przejrzystość\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.5\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n\n    <div class=\"container\">\n        <div class=\"media-container-row align-center mbr-white\">\n            <div class=\"col-12\">\n                <p class=\"mbr-text mb-0 mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".media-container-row .mbr-text\" data-app-placeholder=\"Type Text\"><p>Marka <b>BETTERYOU</b>&nbsp;została stworzona w celu zaspokojenia potrzeb konsumentów świadomych jakości. Mamy bogate doświadczenie w sklepach ze zdrową żywnością, a naszym celem jest oferowanie produktów zdrowotnych o najwyższej jakości. <b>BETTER YOU</b> jest perłą skandynawskich uczonych zajmujących się suplementami diety oraz dietetyką od ponad 25 lat. </p><p>Naszym punktem wyjścia jest to, że dzisiejsze potrzeby konsumentów prowadzą w kierunku pro-zdrowotnym. Pracujemy od całościowego podejścia odnowy biologicznej. Oceniamy i rozwijamy produkty, które odpowiadają potrzebom dzisiejszych <b>sportowców</b>, <b>kulturystów</b> czy <b>trenujących kobiet </b>które są podstawą naszej działalności.</p><p>[<a href=\"https://betteryou.pl/o-nas/\" style=\"font-size: 1rem; background-color: rgb(255, 255, 255);\"><b>Czytaj więcej</b></a><span style=\"font-size: 1rem;\">]</span></p><hr></p>\n            </div>\n        </div>\n    </div>\n</section>",
           "_cid": "r8ZJw3RLGn",
           "_protectedParams": [],
           "_global": true,
