@@ -243,7 +243,7 @@
               "color": "#000000"
             },
             "P": {
-              "color": "#000000",
+              "color": "#2e2e2e",
               "text-align": "left"
             },
             ".media-container-row .mbr-text B": {
