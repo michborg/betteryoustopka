@@ -1337,7 +1337,8 @@ body {
   top: 0;
   width: 100%;
   height: 100%;
-  background: #554346;
+  background: #4f4943;
+  background: linear-gradient(to left, #4f4943, #2e2e2e) !important;
   opacity: 0;
   -webkit-transition: 0.2s opacity ease-in-out;
   transition: 0.2s opacity ease-in-out;
@@ -1346,7 +1347,7 @@ body {
   background: transparent !important;
 }
 .cid-r967H4K3v8 .mbr-gallery-item > div:hover:before {
-  opacity: 0.2 !important;
+  opacity: 0.4 !important;
 }
 .cid-r967H4K3v8 .mbr-gallery-title {
   font-size: .9em;
@@ -1366,8 +1367,9 @@ body {
   left: 0;
   z-index: -1;
   position: absolute;
-  background: #554346 !important;
-  opacity: 0.2;
+  background: #4f4943 !important;
+  background: linear-gradient(to left, #4f4943, #2e2e2e) !important;
+  opacity: 0.4;
   -webkit-transition: 0.2s background ease-in-out;
   transition: 0.2s background ease-in-out;
 }
