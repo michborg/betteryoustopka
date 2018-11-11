@@ -1298,7 +1298,7 @@ body {
   background-color: #ffffff;
 }
 .cid-r90e1PE0A0 .media-container-row .mbr-text {
-  color: #000000;
+  color: #96bf0d;
   text-align: left;
 }
 .cid-r90e1PE0A0 .media-container-row .mbr-text P {
@@ -1307,6 +1307,9 @@ body {
 .cid-r90e1PE0A0 P {
   color: #000000;
   text-align: left;
+}
+.cid-r90e1PE0A0 .media-container-row .mbr-text B {
+  color: #96bf0d;
 }
 .cid-r90pycGROU {
   padding-top: 30px;
