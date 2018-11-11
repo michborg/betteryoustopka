@@ -199,12 +199,12 @@
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
-                "image": "@PROJECT_PATH@/assets/images/wega-skie-ciasteczka-857x375.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/wega-skie-ciasteczka-857x375-800x350.jpg",
+                "image": "@PROJECT_PATH@/assets/images/gor-ca-czekolada-z-bia-kiem-857x375.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/gor-ca-czekolada-z-bia-kiem-857x375-800x350.jpg",
                 "alt": "",
                 "title": "",
                 "customStyle1": "display-7",
-                "caption": "<a href=\"https://betteryou.pl/blog/cat/przepisy/post/weganskie-ciasteczka/\" class=\"text-white\">WEGAŃSKIE CIASTECZKA</a>",
+                "caption": "<a href=\"https://betteryou.pl/blog/cat/przepisy/post/goraca-czekolada-z-bialkiem/\" class=\"text-white\">GORĄCA CZEKOLADA Z BIAŁKIEM</a>",
                 "active": true
               },
               {
