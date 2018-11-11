@@ -164,8 +164,8 @@
                 "alt": "",
                 "title": "",
                 "customStyle1": "display-7",
-                "caption": "WEGAŃSKIE CIASTECZKA",
-                "active": false
+                "caption": "<a href=\"https://betteryou.pl/blog/cat/przepisy/post/weganskie-ciasteczka/\" class=\"text-white\">WEGAŃSKIE CIASTECZKA</a>",
+                "active": true
               },
               {
                 "tags": "Niesamowite",
@@ -177,7 +177,7 @@
                 "alt": "",
                 "title": "",
                 "customStyle1": "display-7",
-                "caption": "PANCAKE BIAŁKOWY",
+                "caption": "<a href=\"https://betteryou.pl/blog/cat/przepisy/post/pancake-biakowy/\" class=\"text-white\">PANCAKE BIAŁKOWY</a>",
                 "active": false
               },
               {
@@ -190,7 +190,7 @@
                 "alt": "",
                 "title": "",
                 "customStyle1": "display-7",
-                "caption": "CZEKOLADOWE KULKI",
+                "caption": "<a href=\"https://betteryou.pl/blog/cat/przepisy/post/czekoladowe-kulki/\" class=\"text-white\">CZEKOLADOWE KULKI</a>",
                 "active": false
               },
               {
@@ -203,8 +203,8 @@
                 "alt": "",
                 "title": "",
                 "customStyle1": "display-7",
-                "caption": "PROTEIN SMOOTHIE",
-                "active": true
+                "caption": "<a href=\"https://betteryou.pl/blog/cat/przepisy/post/protein-smoothie/\" class=\"text-white\">PROTEIN SMOOTHIE</a>",
+                "active": false
               }
             ]
           },
