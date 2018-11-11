@@ -234,10 +234,10 @@
               }
             },
             ".foot-title": {
-              "color": "#f7ed4a"
+              "color": "#f9f295"
             },
             ".copyright .mbr-text": {
-              "color": "#ffffff"
+              "color": "#f9f295"
             },
             ".mbr-links-column": {
               "color": "#ffffff"
